@@ -10,4 +10,11 @@
 
 x=float(input("what's x? "))
 y= float(input("what's y? "))
-print(x+y)
+#if you want to round off the decimal part
+z = round(x+y)
+print(f"{z:,}")
+a = x/y
+#a = round(x/y, 2)
+#HERE 2 is the number of decimal places we want to round to
+print(f"{a:,.2f}")
+# the , in the format specifier is used to add commas as thousands separators in the output
