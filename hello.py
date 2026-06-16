@@ -2,6 +2,7 @@
 name = input("What is your name? ")
 #print ("Hello, world!")
 print(f"Hello, {name}!")
+# f-string is a way to format strings in Python
 #
 #OR
 #
